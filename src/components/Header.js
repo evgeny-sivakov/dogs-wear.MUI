@@ -1,13 +1,12 @@
 import MainNavigation from "./MainNavigation";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import logo from "../assets/img/logo.svg";
-import logopng from "../assets/img/logopng.png";
 import { Box } from "@mui/material";
 
 const MENU_SECTIONS = [
   { title: "Catalog", url: "#" },
   { title: "About", url: "#" },
-  { title: "Sizes", url: "#" },
+  { title: "Measuring", url: "#" },
   { title: "Shipping", url: "#" },
   { title: "Contact us", url: "#" },
 ];
