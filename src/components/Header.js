@@ -19,7 +19,7 @@ const Header = () => {
     >
       <img src={logo} />
       <MainNavigation sections={MENU_SECTIONS} />
-      <SearchSharpIcon sx={{ ml: 'auto' }} />
+      <SearchSharpIcon sx={{ ml: "auto" }} />
     </Box>
   );
 };

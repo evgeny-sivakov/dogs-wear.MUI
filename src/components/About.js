@@ -1,8 +1,16 @@
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography, Paper } from "@mui/material";
 
 function About() {
   return (
-    <Container sx={{backgroundColor: '#000A12', color: '#ffffff', pt: 7.5, pb: 7.5, mt: 10}}>
+    <Container
+      sx={{
+        backgroundColor: "#000A12",
+        color: "#ffffff",
+        pt: 7.5,
+        pb: 7.5,
+        mt: 10,
+      }}
+    >
       <Grid container spacing={4}>
         <Grid item lg={5}>
           <Typography component="h4" variant="h6">

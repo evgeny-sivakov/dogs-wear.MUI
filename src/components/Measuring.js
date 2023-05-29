@@ -7,9 +7,15 @@ function Measuring() {
       disableGutters
       component="div"
       maxWidth="xs"
-      sx={{ display: "flex", flexDirection: "column", alignItems: 'center', gap: 9, paddingY: 9 }}
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 7,
+        paddingY: 5.5,
+      }}
     >
-      <Box component='div'>
+      <Box component="div">
         <img
           src={measureDog}
           alt="icon showing a dog and a measuring above it"
@@ -19,7 +25,9 @@ function Measuring() {
         You can order clothes selecting one of the sizes, or we will make them
         according to your dog's individual dimensions.
       </Typography>
-      <Button variant="contained" color="secondary" size="large">How to measure</Button>
+      <Button variant="contained" color="secondary" size="large">
+        How to measure
+      </Button>
     </Container>
   );
 }
